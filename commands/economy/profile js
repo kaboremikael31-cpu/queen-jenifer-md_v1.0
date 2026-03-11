@@ -1,0 +1,50 @@
+const db = require('../../lib/database');
+
+module.exports = {
+    name: 'profile',
+    aliases: ['profil', 'me'],
+    description: 'Voir votre profil et vos statistiques',
+    
+    async execute(sock, m, args, config) {
+        const from = m.key.remoteJid;
+        const sender = m.key.participant || m.key.remoteJid;
+        
+        let user = args[0] ? args[0].replace('@', '') + '@s.whatsapp.net' : sender;
+        
+        // Récupérer les données utilisateur
+        let userData = await db.getUser(user);
+        
+        if (!userData) {
+            userData = await db.createUser(user);
+        }
+        
+        const profileText = `╔══════════════════════╗
+║      *PROFIL UTILISATEUR*      ║
+╚══════════════════════╝
+
+👤 *Utilisateur:* @${user.split('@')[0]}
+💰 *Argent:* ${userData.money || 0} 💎
+⭐ *Niveau:* ${userData.level || 1}
+📊 *XP:* ${userData.xp || 0}/${userData.nextLevelXP || 100}
+🎮 *Jeux joués:* ${userData.gamesPlayed || 0}
+🏆 *Victoires:* ${userData.wins || 0}
+📅 *Inscrit le:* ${userData.createdAt || new Date().toLocaleDateString()}
+
+> ღᴘᴏᴡᴇʀᴇᴅ ʙʏ ${config.botName}ღ`;
+
+        await sock.sendMessage(from, {
+            image: config.media.allothers,
+            caption: profileText,
+            mentions: [user],
+            contextInfo: {
+                externalAdReply: {
+                    title: config.botName,
+                    body: 'Profil Utilisateur',
+                    thumbnail: config.media.repo,
+                    sourceUrl: config.supportLink,
+                    mediaType: 1
+                }
+            }
+        });
+    }
+};
