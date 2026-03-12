@@ -44,6 +44,30 @@
   />
   
   
+**WAIT, YOU HAVEN'T SUBSCRIBED?**
 
+<img 
+    src="https://files.catbox.moe/v8x4b7.webp" 
+    alt="Bot Logo" 
+    width="130" 
+    style="
+      border-radius: 50%;
+      border: 5px dashed #ffcc00;
+      box-shadow: 0 0 20px #ffcc00, 0 0 40px #ffd700;
+    "
+  />
+  
+**WHAT ARE YOU WAITING FOR???**
 
+<img 
+    src="https://files.catbox.moe/e0hsq8.jpg" 
+    alt="Bot Logo" 
+    width="130" 
+    style="
+      border-radius: 50%;
+      border: 5px dashed #ffcc00;
+      box-shadow: 0 0 20px #ffcc00, 0 0 40px #ffd700;
+    "
+  />
+  
 
