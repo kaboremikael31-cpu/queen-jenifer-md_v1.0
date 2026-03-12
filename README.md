@@ -46,6 +46,8 @@
   
 **WAIT, YOU HAVEN'T SUBSCRIBED?**
 
+<a href="https://github.com/kaboremikael31-cpu"><img src="https://img.shields.io/github/followers/kaboremikael31-cpu?style=for-the-badge&logo=github&color=4c1&label=Follow%20ichigo-san" alt="Follow ichigo san" /></a>
+
 <img 
     src="https://files.catbox.moe/v8x4b7.webp" 
     alt="Bot Logo" 
@@ -59,6 +61,9 @@
   
 **WHAT ARE YOU WAITING FOR???**
 
+<a href="https://github.com/kaboremikael31-cpu"><img src="https://img.shields.io/github/followers/kaboremikael31-cpu?style=for-the-badge&logo=github&color=4c1&label=Follow%20ichigo-san" alt="Follow ichigo san" /></a>
+
+
 <img 
     src="https://files.catbox.moe/e0hsq8.jpg" 
     alt="Bot Logo" 
@@ -69,5 +74,19 @@
       box-shadow: 0 0 20px #ffcc00, 0 0 40px #ffd700;
     "
   />
-  
+
+**GOOD !!! GOOD**
+
+**YOU FOLLOW ACCOUNT : 🆗**
+
+<img 
+    src="https://files.catbox.moe/9yfjqo.webp" 
+    alt="Bot Logo" 
+    width="130" 
+    style="
+      border-radius: 50%;
+      border: 5px dashed #ffcc00;
+      box-shadow: 0 0 20px #ffcc00, 0 0 40px #ffd700;
+    "
+  />
 
